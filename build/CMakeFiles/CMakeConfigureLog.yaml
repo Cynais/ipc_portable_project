@@ -1,0 +1,174 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: C:/Program Files/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      collect2.exe: fatal error: cannot find 'ld'
+      compilation terminated.
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/mingw64/bin/gcc.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        C:/Codes_projects/ipc_portable_project/build/CMakeFiles/3.27.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-sj6rf4"
+      binary: "C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-sj6rf4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-sj6rf4'
+        
+        Run Build Command(s): "C:/Program Files/mingw64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_129eb/fast
+        C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_129eb.dir\\build.make CMakeFiles/cmTC_129eb.dir/build
+        mingw32-make[1]: Entering directory 'C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-sj6rf4'
+        Building C object CMakeFiles/cmTC_129eb.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_129eb.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\mingw64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\mingw64\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-mcf-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=mcf --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware'
+        Thread model: mcf
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-mcf-seh, built by Brecht Sanders) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_129eb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_129eb.dir\\'
+         C:/Program Files/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -U_REENTRANT C:\\Program Files\\mingw64\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_129eb.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\mclem\\AppData\\Local\\Temp\\cc1RHX4y.s
+        GNU C17 (MinGW-W64 x86_64-ucrt-mcf-seh, built by Brecht Sanders) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Program Files/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc/include"
+        ignoring nonexistent directory "/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc/include"
+        ignoring duplicate directory "C:/Program Files/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "C:/Program Files/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include
+         C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 591467478625f006635b15219fb9490d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_129eb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_129eb.dir\\'
+         C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_129eb.dir\\CMakeCCompilerABI.c.obj C:\\Users\\mclem\\AppData\\Local\\Temp\\cc1RHX4y.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders) 2.41
+        COMPILER_PATH=C:/Program Files/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Program Files/mingw64/bin/../libexec/gcc/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Program Files/mingw64/bin/../lib/gcc/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_129eb.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_129eb.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_129eb.exe
+        "C:\\Program Files\\mingw64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_129eb.dir\\link.txt --verbose=1
+        "C:\\Program Files\\mingw64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_129eb.dir/objects.a
+        C:\\PROGRA~1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_129eb.dir/objects.a @CMakeFiles\\cmTC_129eb.dir\\objects1.rsp
+        C:\\PROGRA~1\\mingw64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_129eb.dir/objects.a -Wl,--no-whole-archive -o cmTC_129eb.exe -Wl,--out-implib,libcmTC_129eb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\mingw64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Program\\ Files/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-mcf-seh, built by Brecht Sanders' --with-tune=generic --enable-checking=release --enable-threads=mcf --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware'
+        Thread model: mcf
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-mcf-seh, built by Brecht Sanders) 
+        COMPILER_PATH=C:/Program Files/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Program Files/mingw64/bin/../libexec/gcc/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Program Files/mingw64/bin/../lib/gcc/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_129eb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_129eb.'
+         C:/Program Files/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Program Files/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Program Files/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\mclem\\AppData\\Local\\Temp\\ccr5B9XZ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -m i386pep -Bdynamic -o cmTC_129eb.exe C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Program Files/mingw64/bin/../lib/gcc -LC:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. --whole-archive CMakeFiles\\cmTC_129eb.dir/objects.a --no-whole-archive --out-implib libcmTC_129eb.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        collect2.exe: fatal error: cannot find 'ld'
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_129eb.dir\\build.make:99: cmTC_129eb.exe] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-sj6rf4'
+        mingw32-make: *** [Makefile:126: cmTC_129eb/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/mingw64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: C:/Program Files/mingw64/bin/gcc.exe"
+    directories:
+      source: "C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-6omwd0"
+      binary: "C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-6omwd0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-6omwd0'
+        
+        Run Build Command(s): "C:/Program Files/mingw64/bin/cmake.exe" -E env VERBOSE=1 C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f Makefile cmTC_306e8/fast
+        C:/PROGRA~1/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_306e8.dir\\build.make CMakeFiles/cmTC_306e8.dir/build
+        mingw32-make[1]: Entering directory 'C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-6omwd0'
+        Building C object CMakeFiles/cmTC_306e8.dir/testCCompiler.c.obj
+        C:\\PROGRA~1\\mingw64\\bin\\gcc.exe    -o CMakeFiles\\cmTC_306e8.dir\\testCCompiler.c.obj -c C:\\Codes_projects\\ipc_portable_project\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6omwd0\\testCCompiler.c
+        Linking C executable cmTC_306e8.exe
+        "C:\\Program Files\\mingw64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_306e8.dir\\link.txt --verbose=1
+        "C:\\Program Files\\mingw64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_306e8.dir/objects.a
+        C:\\PROGRA~1\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_306e8.dir/objects.a @CMakeFiles\\cmTC_306e8.dir\\objects1.rsp
+        C:\\PROGRA~1\\mingw64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_306e8.dir/objects.a -Wl,--no-whole-archive -o cmTC_306e8.exe -Wl,--out-implib,libcmTC_306e8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_306e8.dir\\linkLibs.rsp
+        collect2.exe: fatal error: cannot find 'ld'
+        compilation terminated.
+        mingw32-make[1]: *** [CMakeFiles\\cmTC_306e8.dir\\build.make:100: cmTC_306e8.exe] Error 1
+        mingw32-make[1]: Leaving directory 'C:/Codes_projects/ipc_portable_project/build/CMakeFiles/CMakeScratch/TryCompile-6omwd0'
+        mingw32-make: *** [Makefile:126: cmTC_306e8/fast] Error 2
+        
+      exitCode: 2
+...
